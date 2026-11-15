@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "hackpanel",
+  "version": "${version}",
+  "name": "Hack Panel",
+  "description": "Panel de hacks: Fly, Speed, Click TP y TP a coordenadas. Abrir con Right Shift.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.hackpanel.HackPanelMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
